@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ 
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+.main-header {
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.main-nav {
+    margin-top: 15px;
+}
+
+.intro {
+    background-color: whitesmoke;
+}
+
+.smile {
+    width: 200px;
+    height: 130px;
+    padding-top: 20px;
+}
+
+
+.selfie {
+    width: 290px;
+    height: 160px;
+    padding: 10px;
+    margin: 20px
+}
+
+.text {
+    font-size: 15px;
+    margin: 30px;
+    padding-bottom: 20px;
+}
+
+.name {
+    padding-top: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.contact {
+    background-color: whitesmoke;
+    padding-top: 30px;
+}
+
+.item {
+    font-size: 15px;
+}
+
+.container {
+    padding-bottom: 30px;
+}
+
+.phone {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.email {
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px
+}
+
+.dial {
+ padding: 7px;
+ margin: 5px;
+ background-color: white;
+ border-radius: 5px;
+}
+
+.main-footer {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-top: solid black 1px;
+}
+
+.main-navi {
+    margin: 5px;
+    display: none;
+    align-items: center;
+}
+
+.name a,
+.main-navi a {
+    text-align: center;
+    display: block;
+    padding: 5px 5px;
+}
+
+.main-nav a {
+    text-transform: uppercase;
+}
+
+.main-navi a {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top {
+    padding-top: 10px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+.top {
+    display: none;
+}
+
+.main-navi {
+    display: flex;
+    font-size: 30px;
+}
+
+    .main-nav {
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main-header {
+        margin-top: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .box { 
+        width: 300px;
+}
+
+
+.selfie {
+    height: 180px;
+    width: 300px;
+    padding-right: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+h2 {
+    padding-left: 25px;
+}
+
+.smile {
+    height: 175px;
+    width: 285px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text {
+    font-size: 25px;
+    text-align: left;
+}
+
+.title {
+    padding-top: 30px;
+}
+
+.shrink {
+ font-size: 20px;
+ padding-right: 20px
+}
+.email {
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.phone {
+    font-size: 20px;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .top {
+        display: none;
+    }
+
+.main-navi {
+    font-size: 30px;
+}
+
+    .smile {
+        height: 220px;
+        width: 365px;
+    }
+
+    .selfie {
+        height: 160px;
+        width: 285px;
+    }
+
+    .main-header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .name {
+        font-size: 25px;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+
+    .main-nav {
+        background-color: whitesmoke;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .contact {
+        margin: auto;
+    }
+
+
+    h3 {
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+
+    .shrink {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .box { 
+        width: 300px;
+}
+
+}
